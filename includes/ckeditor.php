@@ -1,5 +1,6 @@
 <?php
-    
+if(isset($target_textarea)){
+    /* For those wo wants to use ckeditor
     if(!isset($ckeditor_path)) $ckeditor_path='';
 
     include_once $ckeditor_path.'ckeditor/ckeditor.php';
@@ -18,5 +19,16 @@
     
     
     $ckeditor->editor($target_textarea);
-    
+     * 
+     */
+?>
+
+    <script type="text/javascript">
+        tinymce.init({
+            selector: "textarea[name=<?=$target_textarea ?>]",
+             min_height: 200
+        });
+    </script>
+<?php
+}
 ?>   

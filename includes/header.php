@@ -29,9 +29,11 @@ require_once 'lib/lib.utils.php';
     <script src="ckeditor/ckeditor.js " ></script>
     <script src="ckfinder/ckfinder.js " ></script>
     <script src="js/bootstrap-datetimepicker.min.js" ></script>
+    <script src="tinymce/js/tinymce/tinymce.min.js" ></script>
     <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
     <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
     <script src="js/app.js" ></script>
+    
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
